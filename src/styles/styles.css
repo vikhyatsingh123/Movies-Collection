@@ -1,0 +1,14 @@
+*{
+margin: 0;
+}
+
+.navbar{
+   display: grid;
+    justify-content: right;
+    background-color: rgb(0, 119, 255); 
+}
+
+ .navbar .ant-menu-light{
+     color: white;
+    background-color: rgb(0, 119, 255);
+}
