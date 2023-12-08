@@ -7,8 +7,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(0, 119, 255);
-    padding: 10px;
+    padding: 20px;
+    height: 60px; 
   }
+  
   
   .navbar .ant-menu-light {
     color: white;
