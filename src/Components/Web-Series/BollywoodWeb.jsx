@@ -2,7 +2,9 @@ import React from "react";
 import { Card, Button } from "antd";
 
 import Scam from '../../images/scam.jpg';
+import FamilyMan from '../../images/FamilyMan.jpg';
 import SacredGames from '../../images/SacredGames.jpg';
+
 
 const BollywoodWeb = () => {
   return (
@@ -36,7 +38,40 @@ const BollywoodWeb = () => {
           </div>
         </div>
       </Card>
-        {/* CARD 2 */}
+      {/* Card 2 */}
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img
+              src={FamilyMan}
+              alt="Image"
+              style={{ maxWidth: "100%", height: "150px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>The Family Man</h3>
+            <p>
+            An edgy action-drama series which tells the story of a middle-class man who works for a special cell of the National Investigation Agency. 
+            While he tries to protect the nation from terrorists, he also must protect his family from the impact of his secretive, high-pressure, and low-paying job.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}  
+            >
+            <a
+            href='https://github.com/Blaster2398'
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+              <Button type="primary">Contributed by Aryan Patel</Button>
+            </div>
+          </div>
+        </div>
+      </Card>
+        {/* CARD 3 */}
         <Card>
             <div style={{ display: "flex", alignItems: "center" }}>
                 <div style={{ flex: 1 }}>

@@ -36,6 +36,8 @@ const HollywoodWeb = () => {
           </div>
         </div>
       </Card>
+
+      
        {/* Card 2 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
