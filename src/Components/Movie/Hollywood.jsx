@@ -3,6 +3,8 @@ import { Card, Button } from "antd";
 
 import Inception from '../../images/inception.jpg';
 import Avatar from '../../images/avatar.jpg';
+import Dune from '../../images/dune.jpg';
+
 
 const Hollywood = () => {
   return (
@@ -42,6 +44,8 @@ const Hollywood = () => {
           </div>
         </div>
       </Card>
+
+
        {/* Card 2 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
@@ -77,6 +81,45 @@ const Hollywood = () => {
           </div>
         </div>
       </Card>
+
+
+       {/* Card 3 */}
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img
+              src={Dune}
+              alt="Image"
+              style={{ maxWidth: "100%", height: "150px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>Dune</h3>
+            <p>
+            American epic science fiction film directed by Denis Villeneuve, who co-wrote the screenplay with Jon Spaihts and Eric Roth.
+            Set in the far distant future, in a post-artificial intelligence universe, the film follows Paul Atreides as his family, 
+            the noble House Atreides, is thrust into a war for the deadly and inhospitable desert planet Arrakis.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+               <a
+            href='https://github.com/Blaster2398'
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+              <Button type="primary">Contributed by Aryan Patel</Button>
+                 </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+
+      
     </>
   );
 };
