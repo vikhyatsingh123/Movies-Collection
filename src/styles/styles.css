@@ -1,14 +1,21 @@
-*{
-margin: 0;
-}
-
-.navbar{
-   display: grid;
-    justify-content: right;
-    background-color: rgb(0, 119, 255); 
-}
-
- .navbar .ant-menu-light{
-     color: white;
+* {
+    margin: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(0, 119, 255);
-}
+    padding: 10px;
+  }
+  
+  .navbar .ant-menu-light {
+    color: white;
+    background-color: rgb(0, 119, 255);
+  }
+  
+  .dark-mode-switch {
+    margin-left: 10px;
+  }
+  
