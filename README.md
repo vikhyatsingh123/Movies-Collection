@@ -51,3 +51,40 @@ Indulge in the captivating world of Bollywood web series. From crime thrillers t
 
 Experience the best of Hollywood through our selection of web series. Get ready for binge-worthy content that will keep you entertained.
 
+
+### Creating A Pull Request
+
+1. Fork the Project
+2. Clone your forked repository
+
+```sh
+git clone https://github.com/<your_github_username>/Moksh.git
+```
+3. Now go ahead and create a new branch and move to the branch
+```sh
+git checkout -b fix-issue-<ISSUE-NUMBER>
+```
+4. After you have added your changes, follow the following command chain
+   Check the changed files
+```sh
+git status -s
+```
+
+5. Add all the files to the staging area
+```sh
+git add .
+```
+ or
+```sh
+git add <file_name1> <file_name2>
+```
+6. Commit your changes
+```sh
+git commit -m "<EXPLAIN-YOUR_CHANGES>"
+```
+7. Push your changes
+```sh
+git push origin fix-issue-<ISSUE-NUMBER>
+```
+8. Open a Pull Request 
+
