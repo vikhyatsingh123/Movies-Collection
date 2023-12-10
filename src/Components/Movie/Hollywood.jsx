@@ -4,6 +4,7 @@ import { Card, Button } from "antd";
 import Inception from '../../images/inception.jpg';
 import Avatar from '../../images/avatar.jpg';
 import Dune from '../../images/dune.jpg';
+import EndGame from '../../images/end.jpg';
 
 
 const Hollywood = () => {
@@ -113,6 +114,42 @@ const Hollywood = () => {
             rel="noopener noreferrer"
           >
               <Button type="primary">Contributed by Aryan Patel</Button>
+                 </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+
+
+      {/* Card 4 */}
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img
+              src={EndGame}
+              alt="Image"
+              style={{ maxWidth: "100%", height: "150px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>End Game</h3>
+            <p>
+            After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again
+             to reinvigorate their trounced allies and restore balance.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+               <a
+            href='https://github.com/sami3160'
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+              <Button type="primary">Contributed by Sami Bhadgaonkar</Button>
                  </a>
             </div>
           </div>

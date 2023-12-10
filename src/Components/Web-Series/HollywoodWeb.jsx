@@ -3,6 +3,7 @@ import { Card, Button } from "antd";
 
 import Got from '../../images/Got.jpg';
 import Witcher from '../../images/Witcher.jpg'
+import MoneyHiest from '../../images/moneyH.jpg'
 
 const HollywoodWeb = () => {
   return (
@@ -68,6 +69,39 @@ const HollywoodWeb = () => {
           >
               <Button type="primary">Contributed by Prince Singh</Button>
                     </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+
+      {/* Card 3 */}
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img
+              src={MoneyHiest}
+              alt="Image"
+              style={{ maxWidth: "100%", height: "150px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>Money Heist</h3>
+            <p>
+            The group takes 67 hostages, including the daughter of the British Ambassador. 
+            They lock themselves in the Royal Mint for over a week. Their goal is to print
+             €2.4 billion in unmarked bills without bloodshed. 
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            ><a href="https://github.com/sami3160"
+            target="_blank"
+            rel="noopener noreferrer">
+              <Button type="primary">Contributed by Sami Bhadgaonkar</Button>
+            </a>
             </div>
           </div>
         </div>
