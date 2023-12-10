@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Button } from "antd";
-
+import Suits from 'src/images/Suits.jpg'
 import Got from '../../images/Got.jpg';
 import Witcher from '../../images/Witcher.jpg'
 import MoneyHiest from '../../images/moneyH.jpg'
@@ -106,6 +106,43 @@ const HollywoodWeb = () => {
           </div>
         </div>
       </Card>
+      {/* CARD_NUMBER 4 */}
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img src={Suits}
+           alt="SUITS"
+           style={{ maxWidth: "100%", height: "150px" }}
+         />
+       </div>
+       <div style={{ flex: 6 }}>
+         <h3>Suits</h3>
+         <p>
+         "Suits" follows brilliant college dropout Mike Ross, 
+         hired by top lawyer Harvey Specter, despite lacking a 
+         law degree. The duo navigates legal challenges at 
+         Pearson Specter, combining wit and deception. 
+         The series explores complex relationships and high-stakes 
+         legal drama in a fast-paced corporate world.
+         </p>
+         <div
+           style={{
+             display: "flex",
+             justifyContent: "center",
+             alignItems: "center",
+           }}
+         >
+           <a
+             href='https://github.com/aindree-2005'
+             target="_blank"
+             rel="noopener noreferrer"
+           >
+             <Button type="primary">Contributed by Aindree Chatterjee</Button>
+           </a>
+         </div>
+       </div>
+     </div>
+   </Card>
     </>
   );
 };
