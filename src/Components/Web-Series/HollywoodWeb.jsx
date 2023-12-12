@@ -1,10 +1,9 @@
 import React from "react";
 import { Card, Button } from "antd";
-import Suits from 'src/images/Suits.jpg'
+import Suits from '../../images/Suits.jpg'
 import Got from '../../images/Got.jpg';
 import Witcher from '../../images/Witcher.jpg'
 import MoneyHiest from '../../images/moneyH.jpg'
-
 const HollywoodWeb = () => {
   return (
     <>
@@ -143,6 +142,8 @@ const HollywoodWeb = () => {
        </div>
      </div>
    </Card>
+   
+
     </>
   );
 };

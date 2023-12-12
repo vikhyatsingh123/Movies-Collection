@@ -5,6 +5,7 @@ import Inception from '../../images/inception.jpg';
 import Avatar from '../../images/avatar.jpg';
 import Dune from '../../images/dune.jpg';
 import EndGame from '../../images/end.jpg';
+import Memento from '../../images/Memento.jpg'
 
 
 const Hollywood = () => {
@@ -155,7 +156,38 @@ const Hollywood = () => {
           </div>
         </div>
       </Card>
-
+      {/* CARD_NUMBER 5 */}
+   <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img src={Memento}
+           alt="Memento"
+           style={{ maxWidth: "100%", height: "150px" }}
+         />
+       </div>
+       <div style={{ flex: 6 }}>
+         <h3>Memento</h3>
+         <p>
+         Memento's story follows Shelby, who has short-term memory loss following a break-in at his house in which his wife was raped and murdered and a blow to the head that gave Shelby his "condition." Leonard has been chasing the guy who did it, but his search is complicated by the fact that he can't make new memories since the accident.
+         </p>
+         <div
+           style={{
+             display: "flex",
+             justifyContent: "center",
+             alignItems: "center",
+           }}
+         >
+           <a
+             href='https://github.com/saurabhgdeshmukh'
+             target="_blank"
+             rel="noopener noreferrer"
+           >
+             <Button type="primary">Contributed by Saurabh Deshmukh</Button>
+           </a>
+         </div>
+       </div>
+     </div>
+   </Card>
       
     </>
   );
