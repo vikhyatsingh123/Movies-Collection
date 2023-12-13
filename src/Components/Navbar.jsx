@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Menu, Switch } from "antd";
 import { HomeOutlined, InfoCircleOutlined } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -12,12 +13,12 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <Menu mode="horizontal" theme={darkMode ? "dark" : "light"}>
-        <Menu.Item key="home" icon={<HomeOutlined />}>
+        <Link to="/"><Menu.Item key="home" icon={<HomeOutlined />}>
           Home
-        </Menu.Item>
-        <Menu.Item key="about" icon={<InfoCircleOutlined />}>
+        </Menu.Item></Link>
+        <Link to="/about"><Menu.Item key="about" icon={<InfoCircleOutlined />}>
           About
-        </Menu.Item>
+        </Menu.Item></Link>
       </Menu>
       <div className="dark-mode-switch">
         <Switch onChange={handleDarkModeToggle} />
