@@ -1,12 +1,24 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import {createRoot} from "react-dom/client"
 // import "antd/dist/antd.css";
+import About from './Components/About';
 import App from './App';
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+const router = createBrowserRouter([
+  {
+      path: "/",
+      element: <App />,
+  },
+  {
+      path: "/about",
+      element: <About />
+  },
+  ]);
+  const domNode=document.getElementById('root');
+  const root=createRoot(domNode);
+  root.render(
+      <RouterProvider router={router} />
+  )
