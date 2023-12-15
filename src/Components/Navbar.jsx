@@ -19,6 +19,9 @@ const Navbar = () => {
         <Link to="/about"><Menu.Item key="about" icon={<InfoCircleOutlined />}>
           About
         </Menu.Item></Link>
+        <Link to="/suggest"><Menu.Item key="about" icon={<InfoCircleOutlined />}>
+          Suggest
+        </Menu.Item></Link>
       </Menu>
       <div className="dark-mode-switch">
         <Switch onChange={handleDarkModeToggle} />
