@@ -3,6 +3,7 @@ import {createRoot} from "react-dom/client"
 // import "antd/dist/antd.css";
 import About from './Components/About';
 import App from './App';
+import Suggestion from './Components/Suggestion';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
       path: "/about",
       element: <About />
+  },
+  {
+      path: "/suggest",
+      element: <Suggestion />
   },
   ]);
   const domNode=document.getElementById('root');
