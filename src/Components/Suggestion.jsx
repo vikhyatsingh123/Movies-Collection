@@ -1,8 +1,8 @@
 import React from "react"
 import { useState } from "react";
 import Swal from "sweetalert2";
-import Navbar from "./Navbar"
-import "./Suggestion.css"
+
+import "../styles/Suggestion.css"
 function Suggestion(){
     const [name, setName] = useState("");
     const [email, setMail] = useState("");
@@ -25,7 +25,7 @@ function Suggestion(){
             window.Email.send(config)
             .then(
                 async message => {
-                    if (message=="OK"){
+                    if (message==="OK"){
                         await Swal.fire({
                             title: "Success!",
                             text: "Message Sent Successfully!",
@@ -48,20 +48,20 @@ function Suggestion(){
     }
     return (
         <div>
-            <Navbar />
-            <div className="contact-form">
+          
+            <div className="contact-form" style={{ padding:"20px"}}>
             <div className="getintouch">
-                <h2 style={{ fontFamily: "Times New Roman, Times, serif"}}>Suggest a Movie</h2>
+                <h2>Suggest a Movie</h2>
             </div>
             <div className="details">
                 <div className="message">
                     <div className="name_email">
-                        <input type="text" placeholder="Your Name" value={name} onChange={(e) => setName(e.target.value)} required />
-                        <input type="email" placeholder="Email" value={email} onChange={(e)=> setMail(e.target.value)} required />
+                        <input className="inputcss" type="text" placeholder="Your Name" value={name} onChange={(e) => setName(e.target.value)} required />
+                        <input className="inputcss" type="email" placeholder="Email" value={email} onChange={(e)=> setMail(e.target.value)} required />
                     </div>
                     <div className="others">
-                        <input type="text" placeholder="Movie Name" value={subject} onChange={(e)=> setSubject(e.target.value)} />
-                        <textarea type="text" placeholder="Movie Description..." value={msg} onChange={(e)=> setMsg(e.target.value)} required></textarea>
+                        <input  className="inputcss" type="text" placeholder="Movie Name" value={subject} onChange={(e)=> setSubject(e.target.value)} />
+                        <textarea className="inputcss"type="text" placeholder="Movie Description..." value={msg} onChange={(e)=> setMsg(e.target.value)} required></textarea>
                         <button type="submit" onClick={send}>Send</button>
                     </div>
                 </div>

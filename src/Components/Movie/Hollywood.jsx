@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button } from "antd";
+import { Card } from "antd";
 
 import Inception from '../../images/inception.jpg';
 import Avatar from '../../images/avatar.jpg';
@@ -12,9 +12,11 @@ import dark_knight from '../../images/dark_knight.jpg'
 const Hollywood = () => {
   return (
     <>
+
+
       {/* Card 1 */}
       <Card>
-        <div style={{ display: "flex", alignItems: "center" }}>
+        <div style={{ display: "flex", alignItems: "center" }} >
           <div style={{ flex: 1 }}>
             <img
               src={Inception}
@@ -41,7 +43,7 @@ const Hollywood = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button type="primary">Contributed by Vikhyat Singh</Button>
+                <button className="btn btn-outline-dark gitbtn" >Contributed by Vikhyat Singh</button>
               </a>
             </div>
           </div>
@@ -50,13 +52,15 @@ const Hollywood = () => {
 
 
       {/* Card 2 */}
-      <Card>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <div style={{ flex: 1 }}>
+      <Card >
+        <div style={{ display: "flex", alignItems: "center" ,padding : "0"}}>
+          <div className="fade-img" style={{ flex: 1,maxWidth: "100%", height: "100%" /*border:"1px red solid"*/ ,margin: "0"}}>
             <img
+            className="img"
               src={Avatar}
               alt="Image"
-              style={{ maxWidth: "100%", height: "150px" }}
+              style={{ maxWidth: "100%", height: "150px", /*borderRadius: "10px"*/ }}
+         
             />
           </div>
           <div style={{ flex: 6 }}>
@@ -78,7 +82,7 @@ const Hollywood = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button type="primary">Contributed by Prince Singh</Button>
+                <button className="btn btn-outline-dark gitbtn">Contributed by Prince Singh</button>
               </a>
             </div>
           </div>
@@ -115,7 +119,7 @@ const Hollywood = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button type="primary">Contributed by Aryan Patel</Button>
+                <button className="btn btn-outline-dark gitbtn">Contributed by Aryan Patel</button>
               </a>
             </div>
           </div>
@@ -151,7 +155,7 @@ const Hollywood = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button type="primary">Contributed by Sami Bhadgaonkar</Button>
+                <button className="btn btn-outline-dark gitbtn">Contributed by Sami Bhadgaonkar</button>
               </a>
             </div>
           </div>
@@ -183,7 +187,7 @@ const Hollywood = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button type="primary">Contributed by Saurabh Deshmukh</Button>
+                <button className="btn btn-outline-dark gitbtn">Contributed by Saurabh Deshmukh</button>
               </a>
             </div>
           </div>
@@ -215,7 +219,7 @@ const Hollywood = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button type="primary">Contributed by Yash Sachan</Button>
+                <button className="btn btn-outline-dark gitbtn">Contributed by Yash Sachan</button>
               </a>
             </div>
           </div>

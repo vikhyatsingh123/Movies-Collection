@@ -33,7 +33,7 @@ const BollywoodWeb = () => {
                 alignItems: "center",
               }}
             >
-              <Button type="primary">Contributed by Vikhyat Singh</Button>
+              <Button type="btn btn-outline-dark gitbtn">Contributed by Vikhyat Singh</Button>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ const BollywoodWeb = () => {
             target="_blank"
             rel="noopener noreferrer"
           ></a>
-              <Button type="primary">Contributed by Aryan Patel</Button>
+              <Button type="btn btn-outline-dark gitbtn">Contributed by Aryan Patel</Button>
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ const BollywoodWeb = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <Button type="primary">Contributed by Aeyaz Adil</Button>
+                            <Button type="btn btn-outline-dark gitbtn">Contributed by Aeyaz Adil</Button>
                         </a>
                     </div>
                 </div>
