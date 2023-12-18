@@ -31,7 +31,7 @@ const Bollywood = () => {
                 alignItems: "center",
               }}
             >
-              <Button type="primary">Contributed by Vikhyat Singh</Button>
+              <Button type="btn btn-outline-dark gitbtn">Contributed by Vikhyat Singh</Button>
             </div>
           </div>
         </div>

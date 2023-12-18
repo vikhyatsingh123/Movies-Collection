@@ -1,23 +1,226 @@
 * {
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto Slab;
+}
+
+:root {
+  --text-color: black;
+  --background: rgb(255, 255, 255);
+  --primary-text: #4f5579;
+  --primary-text-hover:#a1c8ff;
+  --sec-text:#1C1C1E;
+  --extra-text:#6B6C72;
+  --active-tabhead-bg:#1B1D29;
+  --active-tabhead-text: #c5ddff;
+  --tabhead-bg: rgba(0, 0, 0, 0.02);
+  --tabhead-text:black;
+  --tab-border: #f0f0f0;
+  --tab-hover:#8db6ef;
+  --card: white;
+  --card-border: 0px solid #1B1D29;
+  --card-shadow:rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  --gitbtn:#212529;
+  --gitbtn-text:white;
+  --carouseltext:white;
+  --about-text:#609dff;
+}
+
+.dark-mode {
+  --text-color: white;
+  --background: #171924;
+  --primary-text: #f2f3fa;
+  --primary-text-hover:#c5ddff;
+  --sec-text:#c5ddff;
+  --extra-text:#e2e2e2;
+  --active-tabhead-bg:#7da2d7;
+  --active-tabhead-text: #181a1c;
+  --tabhead-bg: rgb(51, 57, 84);
+  --tabhead-text:white;
+  --tab-border: #f0f0f0;
+  --tab-hover:#8db6ef;
+  --card: #131522;
+  --card-border: 2px solid #8cbcff;
+  --card-shadow: #95c1ff6a 0px 2px 4px, #95c1ff5c 0px 7px 13px -3px, #95c1ff51 0px -3px 0px inset;
+  --carouseltext:#aecbf3;
+  --gitbtn:var(--active-tabhead-bg);
+  --gitbtn-text:var(--active-tabhead-text);
+  --about-text:#97b8e6;
+}
+
+body {
+  color: var(--primary-text);
+  background-color: var(--background);
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden ;
+}
+
+.ant-card-body{
+  
+  color: var(--sec-text);
+  border-radius: 10px;
+  
+}
+
+.ant-card-body p{
+
+  color: var(--extra-text);
+
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-tabs-card.ant-tabs-top >.ant-tabs-nav .ant-tabs-tab-active, :where(.css-dev-only-do-not-override-pr0fja).ant-tabs-card.ant-tabs-top >div>.ant-tabs-nav .ant-tabs-tab-active {
+  border-bottom-color: #9900ff;
+  background: var(--active-tabhead-bg)
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: var(--active-tabhead-text);
+    text-shadow: 0 0 0.25px currentcolor;
+}
+
+
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-tabs-card >.ant-tabs-nav .ant-tabs-tab, :where(.css-dev-only-do-not-override-pr0fja).ant-tabs-card >div>.ant-tabs-nav .ant-tabs-tab{
+  color: var(--tabhead-text);
+  background: var(--tabhead-bg);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border: 1px solid var(--tab-border);
+ 
+}
+
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-tabs-card >.ant-tabs-nav .ant-tabs-tab :hover{
+  color : var(--tab-hover);
+}
+
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-card{
+  border: var(--card-border);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: var(--card);
+  box-shadow: var(--card-shadow);
+}
+
+.bord {
+  border: 0px red solid;
+}
+
+.nav {
+  justify-content: space-around;
+
+}
+
+.navbar {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+ul {
+  margin-bottom: 0;
+
+}
+
+
+.navbar li {
+
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  color: var(--primary-text);
+  transition: ease-in 0.3s;
+}
+
+
+.navbar li:hover {
+  color: var(--primary-text-hover);
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+}
+
+.navtitles {
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.webtitle,
+.navtabs,
+.modebtn {
+  padding: 20px;
+  align-items: center;
+  color: var(--primary-text);
+}
+
+.webtitle h4 {
+  font-weight: 800;
+  margin-bottom: 0;
+
+}
+
+.modebtn {
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+.form-switch.form-check-reverse .form-check-input {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* .fade-img {
+    position: relative; 
+    overflow: hidden;
   }
   
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(0, 119, 255);
-    padding: 20px;
-    height: 60px; 
+  .fade-img:after {
+    content:""; 
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+
+    height: 100%;  
   }
-  
-  
-  .navbar .ant-menu-light {
-    color: white;
-    background-color: rgb(0, 119, 255);
+
+  .img{
+    scale: 1.5;
+    
   }
-  
-  .dark-mode-switch {
-    margin-left: 10px;
-  }
-  
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-card .ant-card-body {
+    padding: 0px;
+} */
+
+
+
+.titletext{
+  font-size: 24px;
+  font-weight: 300;
+  color: #d4d4d4;
+}
+
+.gitbtn {
+  color: var(--gitbtn);
+  border: 1px solid var(--gitbtn);
+}
+
+.gitbtn:hover{
+  background-color: var(--gitbtn);
+  color: var(--gitbtn-text);
+  border: 1px solid var(--gitbtn);
+}
+
+.carouseltext{
+color: var(--carouseltext);
+}
+
+.active-link{
+  color: red;
+}
