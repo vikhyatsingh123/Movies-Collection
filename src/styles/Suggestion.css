@@ -1,0 +1,148 @@
+/* CONTACT FORM CSS */
+.contact-form{
+    display: grid;
+    height: fit-content;
+    width: 60vw;
+    background-color: var(--card);
+    margin:30px auto 30px auto;
+    box-shadow: var(--card-shadow);
+    grid-template-rows: 1fr auto;
+    border-radius: 5px;
+  border-radius: 20px;
+
+  }
+  @media only screen and (min-width:800px){
+    .contact-form {
+        width:50vw;
+        height: 60%;
+    }
+  }
+  @media only screen and (max-width:540px){
+    .contact-form {
+        width:80vw;
+        margin-bottom:100px;
+    }
+  }
+  .getintouch{
+    display: flex;
+    justify-content: center;
+    margin-top:2%;
+    height:fit-content;
+    font-size: 1.5rem;
+    color:#0077FF;
+  }
+  .getintouch h2{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 10px;
+    color:var(--primary-text);
+  }
+  .details{
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-top:2%;
+  }
+  @media only screen and (min-width:800px){
+    .details{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr;
+        height: fit-content;
+        margin-top:2%;
+    }
+  }
+  .message{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+  }
+  input{
+    border-radius: 5px;
+    transition: all 0.6s ease;
+    padding: 8px;
+    border-radius: 20px;
+    border-bottom: 2px solid black;
+    width:95%;
+    font-size: 1.2rem;
+  }
+  .inputcss{
+    margin:1.8rem 2rem;
+  }
+  input:focus{
+    outline:none;
+    border-bottom: 2px solid #0077FF;
+  }
+  input:focus::placeholder{
+    transition: all 0.4s ease;
+    color: transparent;
+  }
+  textarea{
+    margin-left: 2%;
+  
+    transition: all 0.6s ease;
+    margin:4% 2%;
+    padding: 4px;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    resize: none;
+    font-family: arial;
+    width:95%;
+    font-size: 1.2rem;
+  }
+  textarea:focus{
+    outline:none;
+    border-bottom: 2px solid #0077FF;
+    border-radius: 0px;
+  }
+  textarea:focus::placeholder{
+    transition: all 0.4s ease;
+    color: transparent;
+  }
+  .message button{
+    width:90%;
+    font-size: 1.5rem;
+    height: 3rem;
+    border:none;
+    margin: 4% auto;
+    border-radius: 5px;
+    background-color:#4ea0ffcc ;
+    color:white;
+    transform: scale(1);
+    transition: all 0.3s ease;
+    width:95%;
+  }
+  @media only screen and (min-width : 800px) {
+    .message button{
+        height:3rem;
+        width:95%;
+    }
+  }
+  .message button:hover{
+    transform: scale(1.05);
+    background-color:#559ced ;
+    cursor: pointer;
+  }
+  .name_email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+  }
+  @media (min-width:800px) {
+    .name_email{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width:100%;
+    }
+
+  }
+  .others{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+  }

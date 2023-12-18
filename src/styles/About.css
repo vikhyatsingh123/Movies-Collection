@@ -1,0 +1,128 @@
+.about_back{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:50px 50px;
+  
+}
+.about_div{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.about_div h1{
+    font-size: 5rem;
+    color: var(--about-text);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 5rem;
+    font-weight: bolder;
+}
+.about_div h2{
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.about_div p{
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+.about_div button{
+    width:fit-content;
+    height:fit-content;
+    border:none;
+    background-color: var(--about-text);
+    padding:0.9rem 1.8rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top:15px;
+    transform: scale(1);
+    transition: all 0.3s ease;
+    color:white;
+}
+.about_div button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.about_side{
+    width:fit-content;
+    box-shadow: rgb(133, 133, 133) 15px 15px 9px 0px inset, rgba(217, 217, 217, 0.5) -3px -3px 6px 1px inset;
+    background-color: #ffffffd5;
+    overflow: hidden;
+    border-radius: 600px;
+}
+.about_side img{
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 200px;
+    min-height: 200px;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 40px;
+    animation:move 5s infinite, translate 0.8s infinite alternate-reverse;
+   
+ 
+}
+
+
+@keyframes translate {
+    from{
+        transform: translateY(10px);
+    }
+    to{
+        transform: translateY(-10px);
+    }
+}
+@media (max-width:1040px) and (min-width:800px){
+    .about_side img{
+        height:80%;
+        margin-top: 80px;
+    }
+}
+@media (max-width:800px) and (min-width:700px){
+    .about_side img{
+        height: 60%;
+        margin-top:100px;
+    }
+    .about_div{
+        margin-top:20px;
+        transform: scale(0.8);
+    }
+}
+@media (max-width:700px) and (min-width:600px){
+    .about_side img{
+        height: 60%;
+        margin-top:100px;
+    }
+    .about_div{
+        transform: scale(0.7);
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+@media (max-width:600px){
+    .about_back{
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding:0px 50px;
+    }
+    .about_div{
+        transform: scale(0.8);
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+
+.links{
+    font-size: 1.5rem;
+    color:var(--primary-text);
+}
+
+.linkdiv{
+    margin-bottom: 30px;
+}

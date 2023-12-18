@@ -31,7 +31,7 @@ const HollywoodWeb = () => {
                 alignItems: "center",
               }}
             >
-              <Button type="primary">Contributed by Vikhyat Singh</Button>
+              <Button type="btn btn-outline-dark gitbtn">Contributed by Vikhyat Singh</Button>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ const HollywoodWeb = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-              <Button type="primary">Contributed by Prince Singh</Button>
+              <Button type="btn btn-outline-dark gitbtn">Contributed by Prince Singh</Button>
                     </a>
             </div>
           </div>
@@ -99,7 +99,7 @@ const HollywoodWeb = () => {
             ><a href="https://github.com/sami3160"
             target="_blank"
             rel="noopener noreferrer">
-              <Button type="primary">Contributed by Sami Bhadgaonkar</Button>
+              <Button type="btn btn-outline-dark gitbtn">Contributed by Sami Bhadgaonkar</Button>
             </a>
             </div>
           </div>
@@ -136,7 +136,7 @@ const HollywoodWeb = () => {
              target="_blank"
              rel="noopener noreferrer"
            >
-             <Button type="primary">Contributed by Aindree Chatterjee</Button>
+             <Button type="btn btn-outline-dark gitbtn">Contributed by Aindree Chatterjee</Button>
            </a>
          </div>
        </div>
