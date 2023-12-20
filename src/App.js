@@ -3,6 +3,8 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Suggestion from './Components/Suggestion';
 import Navbar from './Components/Navbar';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 import {
   BrowserRouter as Router,
