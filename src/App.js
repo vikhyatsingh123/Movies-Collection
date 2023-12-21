@@ -3,8 +3,11 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Suggestion from './Components/Suggestion';
 import Navbar from './Components/Navbar';
+
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import SuggestModal from "./Components/SuggestModal";
+
 
 import {
   BrowserRouter as Router,
@@ -33,12 +36,12 @@ function App() {
   return(
 
      <Router>
-      <Navbar togglemode={togglemode} mode={mode}/>
+      <Navbar togglemode={togglemode} mode={mode} />
       <Routes>
         
         <Route path="/about" element={<About />}></Route>
-        <Route path="/" element={<Home />}> </Route>
-        <Route path="/suggest" element={<Suggestion />}> </Route>
+        <Route path="/" element={<Home  />}> </Route>
+        <Route path="/suggest" element={<SuggestModal />}> </Route>
       </Routes>
   </Router>
 

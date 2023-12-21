@@ -1,7 +1,9 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* CONTACT FORM CSS */
+
+/* CONTACT FORM CSS
 .contact-form{
     display: grid;
     height: fit-content;
@@ -148,4 +150,4 @@
     justify-content: center;
     align-items: center;
     width:100%;
-  }
+  } */

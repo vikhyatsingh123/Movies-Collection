@@ -6,6 +6,7 @@ import '../styles/styles.css';
 import React, { useState } from "react";
 import { FaHome, FaInfoCircle,FaLightbulb } from 'react-icons/fa';
 import styled from 'styled-components';
+import SuggestModal from "./SuggestModal";
 
 const Button = styled.div`
   position: relative;
@@ -39,6 +40,8 @@ const Button = styled.div`
 export default function Navbar(props) {
 
   const [checked, setChecked] = useState(false);
+  
+  
   return (
 
 
@@ -62,6 +65,9 @@ export default function Navbar(props) {
                 <FaLightbulb /><div className="navtitles"> Suggest</div>
               </li>
             </Link>
+           
+              
+              
           </ul>
         </div>
 
@@ -81,6 +87,9 @@ export default function Navbar(props) {
      </label>  */}
     </div> 
  </div>
+ 
+
+
 </div>
   );
 };

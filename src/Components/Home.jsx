@@ -16,10 +16,13 @@ import img6 from '../images/b6.jpg';
 import img7 from '../images/b7.jpg';
 import img8 from '../images/b8.jpg';
 
+ 
+
+import SuggestModal from "./SuggestModal";
 
 
-const Home = ( ) => {
-  const bannerData=[
+const Home = ({modal,closeModal} ) => {
+ const bannerData=[
     {
       title:"Bollywood Blockbusters",
       description:"Experience the magic of Indian cinema with our handpicked Bollywood hits.",
@@ -54,6 +57,7 @@ const Home = ( ) => {
       image:img8,
     },
   ]
+
   const carouselContainerStyle = {
     position: 'relative',
     width: '100%',
@@ -87,7 +91,7 @@ const Home = ( ) => {
     fontSize: '55px', // Increased font size
     fontWeight: '900',
   };
-
+  
     return (
       <>
    
@@ -119,7 +123,6 @@ const Home = ( ) => {
     </motion.div>
       <MyTabs/>
 
-      
       </>
     );
 
