@@ -7,10 +7,10 @@ import '../styles/styles.css';
 import hollywood from '../images/hollywood.png';
 import bollywood from '../images/bollywood.webp';
 import tollywood from '../images/tollywood.webp';
+import SuggestModal from "./SuggestModal";
 
 
-
-const Home = ( ) => {
+const Home = ({modal,closeModal} ) => {
 
   const carouselContainerStyle = {
     position: 'relative',
@@ -45,7 +45,7 @@ const Home = ( ) => {
     fontSize: '55px', // Increased font size
     fontWeight: '900',
   };
-
+  
     return (
       <>
    
@@ -71,7 +71,6 @@ const Home = ( ) => {
         <br />
       <MyTabs/>
 
-      
       </>
     );
 
