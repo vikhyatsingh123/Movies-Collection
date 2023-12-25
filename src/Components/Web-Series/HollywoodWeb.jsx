@@ -5,6 +5,8 @@ import Got from '../../images/Got.jpg';
 import Witcher from '../../images/Witcher.jpg'
 import MoneyHiest from '../../images/moneyH.jpg'
 import PeakyBlinders from '../../images/PeakyBlinders.png'
+import Locke from '../../images/locke.jpg'
+import Stranger from '../../images/Stranger.jpg'
 const HollywoodWeb = () => {
   return (
     <>
@@ -174,7 +176,70 @@ const HollywoodWeb = () => {
           </div>
         </div>
       </Card>
-
+       {/* Card 6 */}
+       <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img
+              src={Locke}
+              alt="PeakyBlinders"
+              style={{ maxWidth: "100%", height: "150px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>Locke & Key</h3>
+            <p>
+            Following their father's murder, three siblings move into a house filled with reality-bending keys; from the comics by Joe Hill and Gabriel Rodriguez.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <a
+                href='https://github.com/YashSachan2'
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              <Button type="btn btn-outline-dark gitbtn">Contributed by Yash Sachan</Button></a>
+            </div>
+          </div>
+        </div>
+      </Card>
+      {/* Card 7 */}
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img
+              src={Stranger}
+              alt="Stranger things"
+              style={{ maxWidth: "100%", height: "150px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>Stranger Things</h3>
+            <p>
+            In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <a
+                href='https://github.com/YashSachan2'
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              <Button type="btn btn-outline-dark gitbtn">Contributed by Yash Sachan</Button></a>
+            </div>
+          </div>
+        </div>
+      </Card>
     </>
   );
 };
