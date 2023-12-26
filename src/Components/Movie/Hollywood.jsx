@@ -7,7 +7,10 @@ import Dune from '../../images/dune.jpg';
 import EndGame from '../../images/end.jpg';
 import Memento from '../../images/Memento.jpg'
 import dark_knight from '../../images/dark_knight.jpg'
-
+import interstellar from '../../images/interstellar.jpg'
+import wonder from '../../images/wonder.jpg'
+import source_code from '../../images/source_code.jpg'
+import lalaland from '../../images/lalaland.jpg'
 
 const Hollywood = () => {
   return (
@@ -220,6 +223,134 @@ const Hollywood = () => {
                 rel="noopener noreferrer"
               >
                 <button className="btn btn-outline-dark gitbtn">Contributed by Yash Sachan</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+      {/* CARD_NUMBER 7*/}
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img src={interstellar}
+              alt="Memento"
+              style={{height: "150px",width:"100px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>Interstellar</h3>
+            <p>
+            Interstellar is a sci-fi epic directed by Christopher Nolan, exploring the human struggle for survival as a team of astronauts embarks on a daring interstellar journey to find a new habitable planet for humanity.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <a
+                href='https://github.com/Preeti8021'
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn-outline-dark gitbtn">Contributed by Preeti Kintali</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+      {/* CARD_NUMBER 8*/}
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img src={source_code}
+              alt="Memento"
+              style={{height: "150px",width:"100px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>Source Code</h3>
+            <p>
+            Source Code is a mind-bending sci-fi thriller directed by Duncan Jones, where a soldier uses advanced technology to repeatedly relive the last 8 minutes of a commuter's life to prevent a devastating terrorist attack.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <a
+                href='https://github.com/Preeti8021'
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn-outline-dark gitbtn">Contributed by Preeti Kintali</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+      {/* CARD_NUMBER 9*/}
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img src={wonder}
+              alt="Memento"
+              style={{height: "150px",width:"100px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>Wonder</h3>
+            <p>
+            Wonder is a heartwarming film depicting the inspiring journey of a boy with facial differences as he faces the challenges of acceptance and friendship in the demanding world of school.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <a
+                href='https://github.com/Preeti8021'
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn-outline-dark gitbtn">Contributed by Preeti Kintali</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+      {/* CARD_NUMBER 10*/}
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img src={lalaland}
+              alt="Memento"
+              style={{height: "150px",width:"100px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>La La Land</h3>
+            <p>
+            La La Land skillfully depicts the struggles of a jazz musician and an aspiring actress as they navigate the fine line between career ambitions and the intricacies of love against the lively backdrop of Los Angeles.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <a
+                href='https://github.com/Preeti8021'
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn-outline-dark gitbtn">Contributed by Preeti Kintali</button>
               </a>
             </div>
           </div>
