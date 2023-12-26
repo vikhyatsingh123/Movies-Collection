@@ -17,6 +17,10 @@ import AM3 from '../../images/AM3.png'
 import TRB from '../../images/TRB.png'
 import Shazam2 from '../../images/Shazam2.png'
 import Blue_Beetle from '../../images/Blue_Beetle.png'
+import interstellar from '../../images/interstellar.jpg'
+import wonder from '../../images/wonder.jpg'
+import source_code from '../../images/source_code.jpg'
+import lalaland from '../../images/lalaland.jpg'
 
 const Hollywood = () => {
   return (
@@ -248,6 +252,7 @@ const Hollywood = () => {
             <h3>Avatar: The Way of Water</h3>
             <p>
               Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.
+
             </p>
             <div
               style={{
@@ -257,11 +262,13 @@ const Hollywood = () => {
               }}
             >
               <a
+
                 href='https://github.com/Surajit0573'
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="btn btn-outline-dark gitbtn">Contributed by Surajit Maity</button>
+
               </a>
             </div>
           </div>
@@ -281,6 +288,7 @@ const Hollywood = () => {
             <h3>Oppenheimer</h3>
             <p>
               During World War II, Lt. Gen. Leslie Groves Jr. appoints physicist J. Robert Oppenheimer to work on the top-secret Manhattan Project. Oppenheimer and a team of scientists spend years developing and designing the atomic bomb. Their work comes to fruition on July 16, 1945, as they witness the world's first nuclear explosion, forever changing the course of history.
+
             </p>
             <div
               style={{
@@ -290,11 +298,13 @@ const Hollywood = () => {
               }}
             >
               <a
+
                 href='https://github.com/Surajit0573'
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="btn btn-outline-dark gitbtn">Contributed by Surajit Maity</button>
+
               </a>
             </div>
           </div>
@@ -314,6 +324,7 @@ const Hollywood = () => {
             <h3>Barbie</h3>
             <p>
               Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.
+
             </p>
             <div
               style={{
@@ -328,6 +339,7 @@ const Hollywood = () => {
                 rel="noopener noreferrer"
               >
                 <button className="btn btn-outline-dark gitbtn">Contributed by Surajit Maity</button>
+
               </a>
             </div>
           </div>
@@ -338,6 +350,7 @@ const Hollywood = () => {
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
+
             <img src={GOTG3}
               alt="GOTG3"
               style={{ height: "150px", width: "100px" }}
@@ -347,6 +360,7 @@ const Hollywood = () => {
             <h3>Guardians of the Galaxy Vol. 3</h3>
             <p>
               Still reeling from the loss of Gamora, Peter Quill must rally his team to defend the universe and protect one of their own. If the mission is not completely successful, it could possibly lead to the end of the Guardians as we know them.
+
             </p>
             <div
               style={{
@@ -356,6 +370,7 @@ const Hollywood = () => {
               }}
             >
               <a
+
                 href='https://github.com/Surajit0573'
                 target="_blank"
                 rel="noopener noreferrer"
@@ -563,6 +578,134 @@ const Hollywood = () => {
                 rel="noopener noreferrer"
               >
                 <button className="btn btn-outline-dark gitbtn">Contributed by Surajit Maity</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+  {/* CARD_NUMBER 17*/}
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img src={interstellar}
+              alt="Memento"
+              style={{height: "150px",width:"100px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>Interstellar</h3>
+            <p>
+            Interstellar is a sci-fi epic directed by Christopher Nolan, exploring the human struggle for survival as a team of astronauts embarks on a daring interstellar journey to find a new habitable planet for humanity.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <a
+                href='https://github.com/Preeti8021'
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn-outline-dark gitbtn">Contributed by Preeti Kintali</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+      {/* CARD_NUMBER 18*/}
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img src={source_code}
+              alt="Memento"
+              style={{height: "150px",width:"100px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>Source Code</h3>
+            <p>
+            Source Code is a mind-bending sci-fi thriller directed by Duncan Jones, where a soldier uses advanced technology to repeatedly relive the last 8 minutes of a commuter's life to prevent a devastating terrorist attack.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <a
+                href='https://github.com/Preeti8021'
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn-outline-dark gitbtn">Contributed by Preeti Kintali</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+      {/* CARD_NUMBER 19*/}
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img src={wonder}
+              alt="Memento"
+              style={{height: "150px",width:"100px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>Wonder</h3>
+            <p>
+            Wonder is a heartwarming film depicting the inspiring journey of a boy with facial differences as he faces the challenges of acceptance and friendship in the demanding world of school.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <a
+                href='https://github.com/Preeti8021'
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn-outline-dark gitbtn">Contributed by Preeti Kintali</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+      {/* CARD_NUMBER 20*/}
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img src={lalaland}
+              alt="Memento"
+              style={{height: "150px",width:"100px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>La La Land</h3>
+            <p>
+            La La Land skillfully depicts the struggles of a jazz musician and an aspiring actress as they navigate the fine line between career ambitions and the intricacies of love against the lively backdrop of Los Angeles.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <a
+                href='https://github.com/Preeti8021'
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn-outline-dark gitbtn">Contributed by Preeti Kintali</button>
               </a>
             </div>
           </div>
