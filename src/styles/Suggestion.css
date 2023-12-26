@@ -1,3 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* CONTACT FORM CSS
 .contact-form{
     display: grid;
