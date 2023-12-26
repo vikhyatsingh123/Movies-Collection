@@ -54,6 +54,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 2 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -82,6 +83,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 3 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -114,6 +116,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 4 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -148,6 +151,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 5 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -180,6 +184,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 6 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -211,7 +216,8 @@ const Tollywood = () => {
             </div>
           </div>
         </div>
-      </Card>    
+      </Card>  
+      {/* Card 7 */}  
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -244,6 +250,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 8 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -276,6 +283,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 9 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -308,6 +316,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 10 */}
        <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -340,6 +349,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 11 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -372,6 +382,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 12 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -404,6 +415,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 13 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -436,6 +448,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 14 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -468,6 +481,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 15 */}
        <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -500,6 +514,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 16 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
@@ -532,6 +547,7 @@ const Tollywood = () => {
           </div>
         </div>
       </Card>
+      {/* Card 17 */}
       <Card>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
