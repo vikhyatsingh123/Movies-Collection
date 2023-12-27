@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Button } from "antd";
+import Search from '../Search';
 
 import Rrr from '../../images/rrr.jpg';
 import Bahubali from '../../images/Bahubali.png';
@@ -23,8 +24,9 @@ import rajaVaaruRaniGaaru from "../../images/rajaVaaruRaniGaaru.jpg";
 const Tollywood = () => {
   return (
     <>
+    <Search/>
       {/* Card 1 */}
-      <Card>
+      <Card id="rrr">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -55,7 +57,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 2 */}
-      <Card>
+      <Card id="bahubali">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -84,7 +86,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 3 */}
-      <Card>
+      <Card id="magadheera">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -117,7 +119,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 4 */}
-      <Card>
+      <Card id="anand">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -152,7 +154,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 5 */}
-      <Card>
+      <Card id="life is beautiful">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -185,7 +187,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 6 */}
-      <Card>
+      <Card id="bommarillu">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -218,7 +220,7 @@ const Tollywood = () => {
         </div>
       </Card>  
       {/* Card 7 */}  
-      <Card>
+      <Card id="fidaa">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -251,7 +253,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 8 */}
-      <Card>
+      <Card id="krishnagadi veera prema gaadha">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -284,7 +286,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 9 */}
-      <Card>
+      <Card id="bhale bhale magadivoy">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -317,7 +319,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 10 */}
-       <Card>
+       <Card id="happy days">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -350,7 +352,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 11 */}
-      <Card>
+      <Card id="yevade subramanyam">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -383,7 +385,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 12 */}
-      <Card>
+      <Card id="rangasthalam">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -416,7 +418,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 13 */}
-      <Card>
+      <Card id="janatha garage">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -449,7 +451,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 14 */}
-      <Card>
+      <Card id="a aa">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -482,7 +484,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 15 */}
-       <Card>
+       <Card id="godavari">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -515,7 +517,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 16 */}
-      <Card>
+      <Card id="ee nagaraniki emaindi">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -548,7 +550,7 @@ const Tollywood = () => {
         </div>
       </Card>
       {/* Card 17 */}
-      <Card>
+      <Card id="raja vaaru rani gaaru">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img

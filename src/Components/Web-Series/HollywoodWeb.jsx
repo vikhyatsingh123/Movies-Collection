@@ -1,5 +1,7 @@
 import React from "react";
 import { Card, Button } from "antd";
+import Search from '../Search';
+
 import Suits from '../../images/Suits.jpg'
 import Got from '../../images/Got.jpg';
 import Witcher from '../../images/Witcher.jpg'
@@ -36,8 +38,9 @@ import Stranger from '../../images/Stranger.jpg'
 const HollywoodWeb = () => {
   return (
     <>
+    <Search/>
       {/* Card 1 */}
-      <Card>
+      <Card id="game of thrones">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -68,7 +71,7 @@ const HollywoodWeb = () => {
 
 
       {/* Card 2 */}
-      <Card>
+      <Card id="the witcher">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -103,7 +106,7 @@ const HollywoodWeb = () => {
       </Card>
 
       {/* Card 3 */}
-      <Card>
+      <Card id="money heist">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -135,7 +138,7 @@ const HollywoodWeb = () => {
         </div>
       </Card>
       {/* CARD_NUMBER 4 */}
-      <Card>
+      <Card id="suits">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Suits}
@@ -321,7 +324,7 @@ const HollywoodWeb = () => {
 
 
       {/* Card 5 */}
-      <Card>
+      <Card id="peaky blinders">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -353,7 +356,7 @@ const HollywoodWeb = () => {
 
 
        {/* CARD_NUMBER 6*/}
-       <Card>
+       <Card id="breaking bad">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={breakingbad}
@@ -388,7 +391,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 7*/}
-             <Card>
+             <Card id="the walking dead">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={TheWalkingDead}
@@ -423,7 +426,7 @@ const HollywoodWeb = () => {
         </div>
       </Card>
              {/* CARD_NUMBER 8*/}
-             <Card>
+             <Card id="stranger things">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={StrangerThings}
@@ -457,7 +460,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 9*/}
-             <Card>
+             <Card id="the boys">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={TheBoys}
@@ -491,7 +494,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 10*/}
-             <Card>
+             <Card id="friends">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Friends}
@@ -525,7 +528,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 11*/}
-             <Card>
+             <Card id="dexter">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Dexter}
@@ -559,7 +562,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 12*/}
-             <Card>
+             <Card id="black mirror">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={BlackMirror}
@@ -593,7 +596,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 13*/}
-             <Card>
+             <Card id="house of cards">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={HouseofCards}
@@ -627,7 +630,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 14*/}
-             <Card>
+             <Card id="the sopranos">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={TheSopranos}
@@ -661,7 +664,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 15*/}
-             <Card>
+             <Card id="barry">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Barry}
@@ -695,7 +698,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 16*/}
-             <Card>
+             <Card id="daredevil">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Daredevil}
@@ -729,7 +732,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 17*/}
-             <Card>
+             <Card id="prison break">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={PrisonBreak}
@@ -763,7 +766,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 18*/}
-             <Card>
+             <Card id="true detective">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={TrueDetective}
@@ -797,7 +800,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 19*/}
-             <Card>
+             <Card id="cobra kai">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={CobraKai}
@@ -831,7 +834,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 20*/}
-             <Card>
+             <Card id="dark">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Dark}
@@ -865,7 +868,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 21*/}
-             <Card>
+             <Card id="never have i ever">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={NHIE}
@@ -899,7 +902,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 22*/}
-             <Card>
+             <Card id="themandalorian">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={TheMandalorian}
@@ -933,7 +936,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 23*/}
-             <Card>
+             <Card id="house of the dragon">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={HOTD}
@@ -967,7 +970,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 24*/}
-             <Card>
+             <Card id="monarch">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Monarch}
@@ -1001,7 +1004,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 25*/}
-             <Card>
+             <Card id="percy jackson">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={PercyJackson}
@@ -1035,7 +1038,7 @@ const HollywoodWeb = () => {
       </Card>
 
              {/* CARD_NUMBER 26*/}
-             <Card>
+             <Card id="the last kingdom">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={TLK}
@@ -1068,7 +1071,7 @@ const HollywoodWeb = () => {
         </div>
         </Card>
   {/* Card 27 */}
-      <Card>
+      <Card id="stranger">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Stranger}
@@ -1100,7 +1103,7 @@ const HollywoodWeb = () => {
         </div>
       </Card>
       {/* Card 28 */}
-      <Card>
+      <Card id="locke & key">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Locke}
