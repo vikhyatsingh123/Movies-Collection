@@ -130,39 +130,7 @@ const BollywoodWeb = () => {
             </div>
         </Card>
         
-        {/* CARD 4 */}
-        <Card>
-            <div style={{ display: "flex", alignItems: "center" }}>
-                <div style={{ flex: 1 }}>
-                    <img
-                        src={Aranyak}
-                        alt="Image"
-                        style={{ maxWidth: "100%", height: "150px" }}
-                    />
-                </div>
-                <div style={{ flex: 6 }}>
-                    <h3>Aranyak</h3>
-                    <p>
-                    Political ploys, personal agendas and a beastly myth all surface as two mismatched hill station cops navigate a web of suspects after a puzzling murder.
-                    </p>
-                    <div
-                        style={{
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center",
-                        }}
-                    >
-                        <a
-                            href='https://github.com/aaadityag'
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <Button type="btn btn-outline-dark gitbtn">Contributed by Aditya Gaikwad</Button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </Card>
+        
 
         {/* CARD 5 */}
         <Card>
@@ -266,73 +234,7 @@ const BollywoodWeb = () => {
             </div>
         </Card>
 
-        {/* CARD 8 */}
-        <Card>
-            <div style={{ display: "flex", alignItems: "center" }}>
-                <div style={{ flex: 1 }}>
-                    <img
-                        src={Choona}
-                        alt="Image"
-                        style={{ maxWidth: "100%", height: "150px" }}
-                    />
-                </div>
-                <div style={{ flex: 6 }}>
-                    <h3>Choona</h3>
-                    <p>
-                    When an unlikely group of misfits discovers a common enemy in the same ruthless yet superstitious politician, they plot a heist to exact revenge.
-                    </p>
-                    <div
-                        style={{
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center",
-                        }}
-                    >
-                        <a
-                            href='https://github.com/aaadityag'
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <Button type="btn btn-outline-dark gitbtn">Contributed by Aditya</Button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </Card>
-
-        {/* CARD 9 */}
-        <Card>
-            <div style={{ display: "flex", alignItems: "center" }}>
-                <div style={{ flex: 1 }}>
-                    <img
-                        src={Cj}
-                        alt="Image"
-                        style={{ maxWidth: "100%", height: "150px" }}
-                    />
-                </div>
-                <div style={{ flex: 6 }}>
-                    <h3>Criminal Justice</h3>
-                    <p>
-                    Sex, drugs and a gruesome murder. An edgy one night stand turns into a nightmare for Aditya, when he wakes up with blood on his hands. The evidence is stacked against him, but he doesn't remember the grisly crime. Is he guilty or not ?
-                    </p>
-                    <div
-                        style={{
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center",
-                        }}
-                    >
-                        <a
-                            href='https://github.com/aaadityag'
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <Button type="btn btn-outline-dark gitbtn">Contributed by Aditya</Button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </Card>
+        
 
         {/* CARD 10 */}
         <Card>
@@ -843,6 +745,110 @@ const BollywoodWeb = () => {
                 </div>
             </div>
         </Card>
+
+      {/* CARD 4 */}
+        <Card>
+            <div style={{ display: "flex", alignItems: "center" }}>
+                <div style={{ flex: 1 }}>
+                    <img
+                        src={Aranyak}
+                        alt="Image"
+                        style={{ maxWidth: "100%", height: "150px" }}
+                    />
+                </div>
+                <div style={{ flex: 6 }}>
+                    <h3>Aranyak</h3>
+                    <p>
+                    Political ploys, personal agendas and a beastly myth all surface as two mismatched hill station cops navigate a web of suspects after a puzzling murder.
+                    </p>
+                    <div
+                        style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                        }}
+                    >
+                        <a
+                            href='https://github.com/aaadityag'
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Button type="btn btn-outline-dark gitbtn">Contributed by Aditya Gaikwad</Button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </Card>
+
+      {/* CARD 8 */}
+        <Card>
+            <div style={{ display: "flex", alignItems: "center" }}>
+                <div style={{ flex: 1 }}>
+                    <img
+                        src={Choona}
+                        alt="Image"
+                        style={{ maxWidth: "100%", height: "150px" }}
+                    />
+                </div>
+                <div style={{ flex: 6 }}>
+                    <h3>Choona</h3>
+                    <p>
+                    When an unlikely group of misfits discovers a common enemy in the same ruthless yet superstitious politician, they plot a heist to exact revenge.
+                    </p>
+                    <div
+                        style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                        }}
+                    >
+                        <a
+                            href='https://github.com/aaadityag'
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Button type="btn btn-outline-dark gitbtn">Contributed by Aditya</Button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </Card>
+
+      
+        {/* CARD 9 */}
+        <Card>
+            <div style={{ display: "flex", alignItems: "center" }}>
+                <div style={{ flex: 1 }}>
+                    <img
+                        src={Cj}
+                        alt="Image"
+                        style={{ maxWidth: "100%", height: "150px" }}
+                    />
+                </div>
+                <div style={{ flex: 6 }}>
+                    <h3>Criminal Justice</h3>
+                    <p>
+                    Sex, drugs and a gruesome murder. An edgy one night stand turns into a nightmare for Aditya, when he wakes up with blood on his hands. The evidence is stacked against him, but he doesn't remember the grisly crime. Is he guilty or not ?
+                    </p>
+                    <div
+                        style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                        }}
+                    >
+                        <a
+                            href='https://github.com/aaadityag'
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Button type="btn btn-outline-dark gitbtn">Contributed by Aditya</Button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </Card>
+
 
     </>
   )
