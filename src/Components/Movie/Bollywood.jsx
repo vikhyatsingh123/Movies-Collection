@@ -344,7 +344,7 @@ const Bollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 10*/}
-      <Card id="tiger">
+      <Card id="tiger 3">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={tiger3}
