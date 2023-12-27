@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Button } from "antd";
+import Search from '../Search';
 
 import Scam from '../../images/scam.jpg';
 import FamilyMan from '../../images/FamilyMan.jpg';
@@ -9,8 +10,9 @@ import SacredGames from '../../images/SacredGames.jpg';
 const BollywoodWeb = () => {
   return (
     <>
+    <Search/>
       {/* Card 1 */}
-      <Card>
+      <Card id="scam">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -39,7 +41,7 @@ const BollywoodWeb = () => {
         </div>
       </Card>
       {/* Card 2 */}
-      <Card>
+      <Card id="family man">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -72,7 +74,7 @@ const BollywoodWeb = () => {
         </div>
       </Card>
         {/* CARD 3 */}
-        <Card>
+        <Card id="sacred games">
             <div style={{ display: "flex", alignItems: "center" }}>
                 <div style={{ flex: 1 }}>
                     <img

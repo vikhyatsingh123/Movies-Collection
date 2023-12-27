@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "antd";
+import Search from '../Search';
 
 import Inception from '../../images/inception.jpg';
 import Avatar from '../../images/avatar.jpg';
@@ -26,9 +27,9 @@ const Hollywood = () => {
   return (
     <>
 
-
+<Search/>
       {/* Card 1 */}
-      <Card>
+      <Card id="inception">
         <div style={{ display: "flex", alignItems: "center" }} >
           <div style={{ flex: 1 }}>
             <img
@@ -65,7 +66,7 @@ const Hollywood = () => {
 
 
       {/* Card 2 */}
-      <Card >
+      <Card id="avatar">
         <div style={{ display: "flex", alignItems: "center", padding: "0" }}>
           <div className="fade-img" style={{ flex: 1, maxWidth: "100%", height: "100%" /*border:"1px red solid"*/, margin: "0" }}>
             <img
@@ -104,7 +105,7 @@ const Hollywood = () => {
 
 
       {/* Card 3 */}
-      <Card>
+      <Card id="dune">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -141,7 +142,7 @@ const Hollywood = () => {
 
 
       {/* Card 4 */}
-      <Card>
+      <Card id="endgame">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -175,7 +176,7 @@ const Hollywood = () => {
         </div>
       </Card>
       {/* CARD_NUMBER 5 */}
-      <Card>
+      <Card id="memento">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Memento}
@@ -207,7 +208,7 @@ const Hollywood = () => {
         </div>
       </Card>
       {/* CARD_NUMBER 6*/}
-      <Card>
+      <Card id="the dark knight">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={dark_knight}
@@ -240,7 +241,7 @@ const Hollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 7*/}
-      <Card>
+      <Card id="avatar 2">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={avater2}
@@ -276,7 +277,7 @@ const Hollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 8*/}
-      <Card>
+      <Card id="oppenheimer">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Oppenheimer}
@@ -312,7 +313,7 @@ const Hollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 9*/}
-      <Card>
+      <Card id="barbie">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Barbie}
@@ -347,7 +348,7 @@ const Hollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 10*/}
-      <Card>
+      <Card id="guardians of the galaxy vol 3">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
 
@@ -383,7 +384,7 @@ const Hollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 11*/}
-      <Card>
+      <Card id="john wick">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={JW4}
@@ -416,7 +417,7 @@ const Hollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 12*/}
-      <Card>
+      <Card id="mission impossible dead reckoning part one">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={MI7}
@@ -450,7 +451,7 @@ const Hollywood = () => {
       </Card>
 
         {/* CARD_NUMBER 13*/}
-        <Card>
+        <Card id="ant man 3">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={AM3}
@@ -484,7 +485,7 @@ const Hollywood = () => {
       </Card>
 
         {/* CARD_NUMBER 14*/}
-        <Card>
+        <Card id="transformers rise of the beasts">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={TRB}
@@ -518,7 +519,7 @@ const Hollywood = () => {
       </Card>
 
           {/* CARD_NUMBER 15*/}
-          <Card>
+          <Card id="shazam 2">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Shazam2}
@@ -551,7 +552,7 @@ const Hollywood = () => {
         </div>
       </Card>
        {/* CARD_NUMBER 16*/}
-       <Card>
+       <Card id="blue beetle">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Blue_Beetle}
@@ -584,7 +585,7 @@ const Hollywood = () => {
         </div>
       </Card>
   {/* CARD_NUMBER 17*/}
-      <Card>
+      <Card id="memento">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={interstellar}
@@ -616,7 +617,7 @@ const Hollywood = () => {
         </div>
       </Card>
       {/* CARD_NUMBER 18*/}
-      <Card>
+      <Card id="source code">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={source_code}
@@ -648,7 +649,7 @@ const Hollywood = () => {
         </div>
       </Card>
       {/* CARD_NUMBER 19*/}
-      <Card>
+      <Card id="wonder">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={wonder}
@@ -680,7 +681,7 @@ const Hollywood = () => {
         </div>
       </Card>
       {/* CARD_NUMBER 20*/}
-      <Card>
+      <Card id="la la land">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={lalaland}

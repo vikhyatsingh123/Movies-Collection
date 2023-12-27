@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Button } from "antd";
+import Search from '../Search';
 
 import War from '../../images/war.jpg';
 import Animal from '../../images/Animal.png';
@@ -30,9 +31,11 @@ import TKF from '../../images/TKF.png';
 
 const Bollywood = () => {
   return (
+    
     <>
+    <Search/>
       {/* Card 1 */}
-      <Card>
+      <Card id="war">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -63,7 +66,7 @@ const Bollywood = () => {
       </Card>
 
       {/* Card 2 */}
-      <Card>
+      <Card id="animal">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -93,7 +96,7 @@ const Bollywood = () => {
       </Card>
 
       {/* Card 3 */}
-      <Card>
+      <Card id="golmaal">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -121,7 +124,7 @@ const Bollywood = () => {
       </Card>
 
       {/* Card 4 */}
-      <Card>
+      <Card id="sholay">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -149,7 +152,7 @@ const Bollywood = () => {
       </Card>
 
       {/* Card 6 */}
-      <Card>
+      <Card id="gangs of wasseypur">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -177,7 +180,7 @@ const Bollywood = () => {
       </Card>
 
       {/* Card 5 */}
-      <Card>
+      <Card id="krrish">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img
@@ -205,7 +208,7 @@ const Bollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 6*/}
-      <Card>
+      <Card id="jawan">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Jawan}
@@ -239,7 +242,7 @@ const Bollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 7*/}
-      <Card>
+      <Card id="pathaan">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Pathaan}
@@ -273,7 +276,7 @@ const Bollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 8*/}
-      <Card>
+      <Card id="gadar 2">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Gadar2}
@@ -307,7 +310,7 @@ const Bollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 9*/}
-      <Card>
+      <Card id="bholaa">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Bholaa}
@@ -341,7 +344,7 @@ const Bollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 10*/}
-      <Card>
+      <Card id="tiger">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={tiger3}
@@ -375,7 +378,7 @@ const Bollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 11*/}
-      <Card>
+      <Card id="mrs chatterjee vs norway">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={cvsn}
@@ -410,7 +413,7 @@ const Bollywood = () => {
 
 
       {/* CARD_NUMBER 12*/}
-      <Card>
+      <Card id="dunki">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Dunki}
@@ -444,7 +447,7 @@ const Bollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 13*/}
-      <Card>
+      <Card id="sanju">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Sanju}
@@ -478,7 +481,7 @@ const Bollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 14*/}
-      <Card>
+      <Card id="3 idiots">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={_3Idiots}
@@ -512,7 +515,7 @@ const Bollywood = () => {
       </Card>
 
       {/* CARD_NUMBER 15*/}
-      <Card>
+      <Card id="pk">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={pk}
@@ -546,7 +549,7 @@ const Bollywood = () => {
       </Card>
 
         {/* CARD_NUMBER 16*/}
-        <Card>
+        <Card id="lage raho munna bhai">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Lage_Raho_Munna_Bhai}
@@ -580,7 +583,7 @@ const Bollywood = () => {
       </Card>
 
         {/* CARD_NUMBER 17*/}
-        <Card>
+        <Card id="munna bhai mbbs">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={mb_mbbs}
@@ -614,7 +617,7 @@ const Bollywood = () => {
       </Card>
 
         {/* CARD_NUMBER 18*/}
-        <Card>
+        <Card id="ib71">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={IB71}
@@ -648,7 +651,7 @@ const Bollywood = () => {
       </Card>
 
         {/* CARD_NUMBER 19*/}
-        <Card>
+        <Card id="khufiya">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Khufiya}
@@ -682,7 +685,7 @@ const Bollywood = () => {
       </Card>
 
         {/* CARD_NUMBER 20*/}
-        <Card>
+        <Card id="selfiee">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Selfiee}
@@ -716,7 +719,7 @@ const Bollywood = () => {
       </Card>
 
         {/* CARD_NUMBER 21*/}
-        <Card>
+        <Card id="fukrey 3">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Fukrey3}
@@ -750,7 +753,7 @@ const Bollywood = () => {
       </Card>
 
         {/* CARD_NUMBER 22*/}
-        <Card>
+        <Card id="dangal">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Dangal}
@@ -785,7 +788,7 @@ const Bollywood = () => {
       </Card>
 
         {/* CARD_NUMBER 23*/}
-        <Card>
+        <Card id="bajrangi bhaijaan">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Bajrangi_Bhaijaan}
@@ -819,7 +822,7 @@ const Bollywood = () => {
       </Card>
 
         {/* CARD_NUMBER 24*/}
-        <Card>
+        <Card id="kabir singh">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Kabir_Singh}
@@ -853,7 +856,7 @@ const Bollywood = () => {
       </Card>
 
         {/* CARD_NUMBER 25*/}
-        <Card>
+        <Card id="the kashmir files">
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={TKF}
