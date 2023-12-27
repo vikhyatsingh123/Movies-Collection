@@ -4,6 +4,11 @@ import Suits from '../../images/Suits.jpg'
 import Got from '../../images/Got.jpg';
 import Witcher from '../../images/Witcher.jpg'
 import MoneyHiest from '../../images/moneyH.jpg'
+import dark from '../../images/dark.jpg'
+import queensgambit from '../../images/queensgambit.jpg'
+import narcos from '../../images/narcos.jpg'
+import hawkeye from '../../images/hawkeye.jpg'
+import bridgerton from '../../images/bridgerton.jpg'
 import PeakyBlinders from '../../images/PeakyBlinders.png'
 import breakingbad from '../../images/breakingbad.png'
 import TheWalkingDead from '../../images/TheWalkingDead.png'
@@ -134,19 +139,51 @@ const HollywoodWeb = () => {
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
             <img src={Suits}
-              alt="SUITS"
+           alt="Image"
+           style={{ maxWidth: "60%", height: "150px" }}
+         />
+       </div>
+       <div style={{ flex: 6 }}>
+         <h3>Suits</h3>
+         <p>
+         "Suits" follows brilliant college dropout Mike Ross, 
+         hired by top lawyer Harvey Specter, despite lacking a 
+         law degree. The duo navigates legal challenges at 
+         Pearson Specter, combining wit and deception. 
+         The series explores complex relationships and high-stakes 
+         legal drama in a fast-paced corporate world.
+         </p>
+         <div
+           style={{
+             display: "flex",
+             justifyContent: "center",
+             alignItems: "center",
+           }}
+         >
+           <a
+             href='https://github.com/aindree-2005'
+             target="_blank"
+             rel="noopener noreferrer"
+           >
+             <Button type="btn btn-outline-dark gitbtn">Contributed by Aindree Chatterjee</Button>
+           </a>
+         </div>
+       </div>
+     </div>
+   </Card>
+   <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img
+              src={dark}
+              alt="Image"
               style={{ maxWidth: "100%", height: "150px" }}
             />
           </div>
           <div style={{ flex: 6 }}>
-            <h3>Suits</h3>
+            <h3>Dark</h3>
             <p>
-              "Suits" follows brilliant college dropout Mike Ross,
-              hired by top lawyer Harvey Specter, despite lacking a
-              law degree. The duo navigates legal challenges at
-              Pearson Specter, combining wit and deception.
-              The series explores complex relationships and high-stakes
-              legal drama in a fast-paced corporate world.
+            A family saga with a supernatural twist, set in a German town where the disappearance of two young children exposes the relationships among four families.
             </p>
             <div
               style={{
@@ -154,18 +191,134 @@ const HollywoodWeb = () => {
                 justifyContent: "center",
                 alignItems: "center",
               }}
-            >
-              <a
-                href='https://github.com/aindree-2005'
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button type="btn btn-outline-dark gitbtn">Contributed by Aindree Chatterjee</Button>
-              </a>
+            ><a href="https://github.com/PSS2134"
+            target="_blank"
+            rel="noopener noreferrer">
+              <Button type="btn btn-outline-dark gitbtn">Contributed by PSS2134</Button>
+            </a>
             </div>
           </div>
         </div>
       </Card>
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img
+              src={queensgambit}
+              alt="Image"
+              style={{ maxWidth: "100%", height: "150px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>The Queen's Gambit</h3>
+            <p>
+            Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But child stardom comes at a price.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            ><a href="https://github.com/PSS2134"
+            target="_blank"
+            rel="noopener noreferrer">
+              <Button type="btn btn-outline-dark gitbtn">Contributed by PSS2134</Button>
+            </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img
+              src={narcos}
+              alt="Image"
+              style={{ maxWidth: "100%", height: "150px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>Narcos</h3>
+            <p>
+            A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar, as well as the many other drug kingpins who plagued the country through the years. 
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            ><a href="https://github.com/PSS2134"
+            target="_blank"
+            rel="noopener noreferrer">
+              <Button type="btn btn-outline-dark gitbtn">Contributed by PSS2134</Button>
+            </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img
+              src={hawkeye}
+              alt="Image"
+              style={{ maxWidth: "100%", height: "150px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>Hawkeye</h3>
+            <p>
+            Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate Bishop, who took on the role after the original Avenger, Clint Barton.
+
+
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            ><a href="https://github.com/PSS2134"
+            target="_blank"
+            rel="noopener noreferrer">
+              <Button type="btn btn-outline-dark gitbtn">Contributed by PSS2134</Button>
+            </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+      <Card>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ flex: 1 }}>
+            <img
+              src={bridgerton}
+              alt="Image"
+              style={{ maxWidth: "100%", height: "150px" }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>Bridgerton</h3>
+            <p>
+            The eight close-knit siblings of the Bridgerton family look for love and happiness in London high society. 
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            ><a href="https://github.com/PSS2134"
+            target="_blank"
+            rel="noopener noreferrer">
+              <Button type="btn btn-outline-dark gitbtn">Contributed by PSS2134</Button>
+            </a>
+            </div>
+          </div>
+        </div>
+      </Card>
+
 
       {/* Card 5 */}
       <Card>

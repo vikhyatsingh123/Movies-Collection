@@ -6,6 +6,7 @@ import Bollywood from './Movie/Bollywood';
 import Tollywood from './Movie/Tollywood';
 import HollywoodWeb from './Web-Series/HollywoodWeb';
 import BollywoodWeb from './Web-Series/BollywoodWeb';
+import Anime from './Web-Series/Anime'
 
 const { TabPane } = Tabs;
 
@@ -45,6 +46,20 @@ const items = [
         label: "Bollywood",
         content: <BollywoodWeb />,
       },
+      
+      
+    ],
+  },{
+    key: "3",
+    label: "Anime",
+    children: [
+      {
+        key: "3-1",
+        label: "All",
+        content: <Anime />,
+      },
+      
+      
     ],
   },
 ];
@@ -53,7 +68,8 @@ const MyTabs = () => {
  
 
   return (
- 
+   <>
+
         <Tabs defaultActiveKey="1" type="card" className='px-3'>
             {items.map((item) => (
               <TabPane tab={item.label} key={item.key}>
@@ -67,6 +83,7 @@ const MyTabs = () => {
               </TabPane>
             ))}
           </Tabs>
+          </>
   
   );
 };
