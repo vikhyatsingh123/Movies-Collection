@@ -1,8 +1,10 @@
 import Card from "../Cardnew";
 import data from "../../Database/data";
+import Search from "antd/es/input/Search";
 const BollywoodWeb = () => {
   return (
     <>
+    <Search/>
      {data.map((single)=>{
       if(single.type=="webseries"&& (single.genre=="bollywood"||single.genre=="Bollywood"))
       {

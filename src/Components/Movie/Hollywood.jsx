@@ -4,6 +4,7 @@ import data from "../../Database/data";
 const Hollywood = () => {
   return (
     <>
+    <Search/>
 {data.map((single)=>{
       if(single.type=="movie"&& (single.genre=="hollywood"||single.genre=="Hollywood"))
       {

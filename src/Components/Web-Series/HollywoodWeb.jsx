@@ -3,6 +3,7 @@ import data from "../../Database/data";
 const HollywoodWeb = () => {
   return (
     <>
+    <Search/>
       {/* Card 1 */}
       {data.map((single)=>{
       if(single.type=="webseries"&& (single.genre=="hollywood"||single.genre=="Hollywood"))
