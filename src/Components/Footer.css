@@ -1,0 +1,35 @@
+footer{
+
+    display: flex;
+    justify-content: space-between;
+    background-color:var(--secondary-color);
+    color: var(--primary-color);
+    align-items: center;
+    padding: 5px 20px;
+    border: 1px solid rgb(81, 80, 80);
+}
+
+footer li {
+
+    list-style: none;
+
+}
+
+.icon_container{
+    /* display: flex; */
+    gap:10px;
+    font-size: 32px;
+    /* justify-content: center; */
+
+}
+
+.icon_container .icon i:hover{
+    transform: scale(1.2);
+    box-shadow: 3px 4px 5px black;
+}
+
+footer h2{
+
+    color: rgb(177, 167, 167);
+    font-weight: 600;
+}
