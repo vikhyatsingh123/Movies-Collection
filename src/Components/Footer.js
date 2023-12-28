@@ -27,24 +27,24 @@ const Footer = () => {
 
         <div class="icon_container">
           <div class="icon">
-            <a href="https://github.com/vikhyatsingh123">
+            <a  target="_blank" href="https://github.com/vikhyatsingh123">
             <i class="fa-brands fa-github"></i>
             </a>
           </div>
 
           <div class="icon">
-            <a href="https://www.instagram.com/vikhyat552/">
+            <a target="_blank" href="https://www.instagram.com/vikhyat552/">
               <i class="fa-brands fa-instagram"></i>
             </a>
           </div>
           <div class="icon">
-            <a href="https://www.linkedin.com/in/vikhyat-singh-337777197/">
+            <a target="_blank" href="https://www.linkedin.com/in/vikhyat-singh-337777197/">
               {" "}
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </div>
           <div class="icon">
-            <a target=bl href="https://www.hackerrank.com/profile/vikhyatsingh628">
+            <a target="_blank" href="https://www.hackerrank.com/profile/vikhyatsingh628">
               <i class="fa-brands fa-hackerrank"></i>
             </a>
           </div>
