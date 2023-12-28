@@ -1,5 +1,6 @@
 import Card from "../Cardnew";
 import data from "../../Database/data";
+import Search from "antd/es/input/Search";
 const HollywoodWeb = () => {
   return (
     <>
